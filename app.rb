@@ -2,7 +2,8 @@ require 'sinatra'
 require 'sinatra/reloader'
 
 get '/' do
-  "99 bottles of beer on the wall. <a href='/98'>Take One Down.</a>"
+  "99 bottles of beer on the wall.
+  <a href='/98'>Take One Down.</a>"
 end
 
 get '/:num' do
